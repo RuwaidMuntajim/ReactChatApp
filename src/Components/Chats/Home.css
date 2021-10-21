@@ -1,0 +1,124 @@
+.body {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	height: 75vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+ul li {
+	height: 10vh;
+	width: 20vw;
+	background-color: #910fc0;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: clamp(0.8rem, 1.5vw, 4rem);
+	font-weight: bold;
+}
+
+ul li:hover {
+	background-color: #bd4ee6;
+}
+
+.remove-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.header {
+	height: 15vh;
+	background-color: #b527e7;
+	color: white !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto;
+}
+
+.messages {
+	width: 100%;
+	height: 95%;
+	background-color: white;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.msg-container {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 0.6vw;
+}
+
+.msg-usr-container {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 0.6vw;
+}
+.msg {
+	background-color: #b527e7;
+	padding-right: 0.2rem;
+	padding-left: 0.2rem;
+	width: fit-content;
+	margin-right: 30px;
+	border-radius: 4px;
+	color: white;
+	margin-left: 0.3rem;
+}
+.msg-usr {
+	background-color: #b527e7;
+	padding-right: 0.2rem;
+	padding-left: 0.2rem;
+	width: fit-content;
+	margin-left: clamp(0.5rem, 5vw, 3rem);
+	border-radius: 4px;
+	color: white;
+	margin-right: 0.3rem;
+}
+.msg p,
+.msg-usr p {
+	margin-bottom: 2px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.usr-user {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#hr {
+	border: 0.3px solid;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.footer {
+	height: 10vh;
+	background-color: #b527e7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-success {
+	background-color: #00e699;
+}

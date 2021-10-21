@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.login-page {
+	padding: 0 !important;
+	margin: 0 !important;
+	font-family: Roboto;
+}
+.container {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.row {
+	height: 100vh;
+}
+.col {
+	height: 100vh;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.poster {
+	background-color: #b527e7;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto;
+	font-weight: medium !important;
+	color: white;
+}
+.card {
+	background-color: #b527e7;
+	border-style: none !important;
+}
+
+.form-col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 75%;
+}
+
+.signup-btn {
+	background-color: #b527e7;
+	border-style: none;
+}
+
+.form-text {
+	font-family: Roboto;
+	font-weight: medium;
+	color: black;
+}
+
+.btn {
+	background-color: #b527e7;
+	border-style: none;
+}
+
+.btn:hover {
+	background-color: #8f12bd;
+}
+
+span {
+	color: #b527e7;
+}
